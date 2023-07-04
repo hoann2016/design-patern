@@ -1,112 +1,45 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Factory_Method
+﻿namespace Factory_Method
 {
     abstract class Page
-
     {
     }
-
-    /// <summary>
-
-    /// A 'ConcreteProduct' class
-
-    /// </summary>
 
     class SkillsPage : Page
-
     {
     }
-
-    /// <summary>
-
-    /// A 'ConcreteProduct' class
-
-    /// </summary>
 
     class EducationPage : Page
-
     {
     }
-
-    /// <summary>
-
-    /// A 'ConcreteProduct' class
-
-    /// </summary>
 
     class ExperiencePage : Page
-
     {
     }
 
-    /// <summary>
-
-    /// A 'ConcreteProduct' class
-
-    /// </summary>
 
     class IntroductionPage : Page
-
     {
     }
-
-    /// <summary>
-
-    /// A 'ConcreteProduct' class
-
-    /// </summary>
 
     class ResultsPage : Page
-
     {
     }
-
-    /// <summary>
-
-    /// A 'ConcreteProduct' class
-
-    /// </summary>
 
     class ConclusionPage : Page
-
     {
     }
 
-    /// <summary>
-
-    /// A 'ConcreteProduct' class
-
-    /// </summary>
 
     class SummaryPage : Page
-
     {
     }
 
-    /// <summary>
-
-    /// A 'ConcreteProduct' class
-
-    /// </summary>
 
     class BibliographyPage : Page
-
     {
     }
 
-    /// <summary>
-
-    /// The 'Creator' abstract class
-
-    /// </summary>
-
     abstract class Document
-
     {
         private List<Page> _pages = new List<Page>();
 
@@ -127,14 +60,8 @@ namespace Factory_Method
         public abstract void CreatePages();
     }
 
-    /// <summary>
-
-    /// A 'ConcreteCreator' class
-
-    /// </summary>
 
     class Resume : Document
-
     {
         // Factory Method implementation
 
@@ -146,14 +73,7 @@ namespace Factory_Method
         }
     }
 
-    /// <summary>
-
-    /// A 'ConcreteCreator' class
-
-    /// </summary>
-
     class Report : Document
-
     {
         // Factory Method implementation
 

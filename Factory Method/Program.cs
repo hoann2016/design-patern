@@ -1,6 +1,4 @@
-﻿// Note: constructors call Factory Method
-
-using Factory_Method;
+﻿using Factory_Method;
 
 Document[] documents = new Document[2];
 
