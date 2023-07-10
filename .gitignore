@@ -22,3 +22,7 @@ bridege/obj/
 Composite/bin/Debug/net7.0/Composite.deps.json
 Composite/bin/
 Composite/obj/
+Decorator/bin/Debug/net7.0/Decorator.deps.json
+Decorator/bin/Debug/net7.0/Decorator.runtimeconfig.json
+Decorator/obj/
+Decorator/bin/
