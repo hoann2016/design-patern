@@ -14,3 +14,11 @@ Prototype/obj/
 Prototype/bin/
 Pool/bin/
 Pool/obj/
+Adapter/bin/
+Adapter/obj/Adapter.csproj.nuget.g.props
+Adapter/obj/
+bridege/bin/
+bridege/obj/
+Composite/bin/Debug/net7.0/Composite.deps.json
+Composite/bin/
+Composite/obj/
