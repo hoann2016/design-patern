@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pattern Singleton", "Patter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Method", "Factory Method\Factory Method.csproj", "{D1A30FB5-73A1-4466-8F8E-2B1A578388A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{EA855541-1EFB-4136-8A14-910F446E630F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{EA855541-1EFB-4136-8A14-910F446E630F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{414338B1-8FE1-4EC0-B7A7-1C127936A2B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{414338B1-8FE1-4EC0-B7A7-1C127936A2B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{8231AFA8-82FC-4D72-9024-0326EF4427BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{8231AFA8-82FC-4D72-9024-0326EF4427BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pool", "Pool\Pool.csproj", "{B2882935-928C-4627-B784-630C4887F2C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{8231AFA8-82FC-4D72-9024-0326EF4427BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8231AFA8-82FC-4D72-9024-0326EF4427BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8231AFA8-82FC-4D72-9024-0326EF4427BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2882935-928C-4627-B784-630C4887F2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2882935-928C-4627-B784-630C4887F2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2882935-928C-4627-B784-630C4887F2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2882935-928C-4627-B784-630C4887F2C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{EA855541-1EFB-4136-8A14-910F446E630F} = {A8A4B1BB-B35F-4415-9CD3-5D04B970C6FD}
 		{414338B1-8FE1-4EC0-B7A7-1C127936A2B3} = {A8A4B1BB-B35F-4415-9CD3-5D04B970C6FD}
 		{8231AFA8-82FC-4D72-9024-0326EF4427BC} = {A8A4B1BB-B35F-4415-9CD3-5D04B970C6FD}
+		{B2882935-928C-4627-B784-630C4887F2C3} = {A8A4B1BB-B35F-4415-9CD3-5D04B970C6FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C437E175-7ACA-41D5-B55F-C444E909F2E3}
