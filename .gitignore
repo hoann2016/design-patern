@@ -26,3 +26,10 @@ Decorator/bin/Debug/net7.0/Decorator.deps.json
 Decorator/bin/Debug/net7.0/Decorator.runtimeconfig.json
 Decorator/obj/
 Decorator/bin/
+Facade/obj/
+Flyweight/bin/Debug/net7.0/Flyweight.deps.json
+Flyweight/bin/
+Flyweight/obj/
+Proxy/bin/
+Proxy/obj/
+Facade/bin/

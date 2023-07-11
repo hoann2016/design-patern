@@ -2,7 +2,7 @@
 
 ICar objCar = new EconomyCar();
 
-//Wrp EconomyCar instancw with BasicAccessories.   
+//Wrap EconomyCar instancw with BasicAccessories.   
 CarAccessoriesDecorator objAccessoriesDecorator = new BasicAccessories(objCar);
 
 //Wrap EconomyCar instance with AdvancedAccessories instance.   

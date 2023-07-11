@@ -19,11 +19,11 @@ public class EconomyCar : ICar
     }
 }
 
-public class DeluxCar : ICar
+public class DeluxeCar : ICar
 {
     public string GetDescription()
     {
-        return "Delux Car";
+        return "Deluxe Car";
     }
 
     public double GetCost()
