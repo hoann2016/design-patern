@@ -10,6 +10,6 @@ ContinentFactory america = new AmericaFactory();
 world = new AnimalWorld(america);
 world.RunFoodChain();
 
-// Wait for user input
-
+//Lion eats Wildebeest
+// Wolf eats Bison
 Console.ReadKey();
