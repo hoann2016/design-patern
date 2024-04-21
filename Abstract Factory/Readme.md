@@ -1,4 +1,4 @@
-﻿# code explaination
+﻿# Code Explanation
 1. Định nghĩ đối tượng và method: 
 - Động vật có 2 loại ăn cỏ (Herbivore) và ăn thịt, ăn thịt (Carnivore) có method eat với param là động vật ăn cỏ
 
