@@ -18,8 +18,8 @@ Vấn đề ở đây là dù chúng ta có đưa vào châu phi hay châu mỹ 
 method eat tương ứng với các châu lục, cụ thể:
 nếu đầu vào là châu mỹ : object sói sẽ chạy method eat với param là bò rừng
 .... châu phi: sư tử ... linh dương.  
-Output
+Output  
 `Lion eats Wildebeest
-Wolf eats Bison`
-**Chốt, ABS class chính là 1 khuôn mẫu,đề xuất các method nên có, những nơi sử dụng abs class này như một tham số
+Wolf eats Bison`  
+**Chốt, ABS class chính là 1 khuôn mẫu,đề xuất các method nên có, những nơi sử dụng Factory class này như một tham số
 có thể nhận các class kế thừa từ abs class nên nó sẽ có những specify method tương ứng được thực thi**
