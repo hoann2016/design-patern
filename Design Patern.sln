@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patern", "Creational Patern", "{A8A4B1BB-B35F-4415-9CD3-5D04B970C6FD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Paterns", "Creational Paterns", "{A8A4B1BB-B35F-4415-9CD3-5D04B970C6FD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pattern Singleton", "Pattern Singleton\Pattern Singleton.csproj", "{5188636C-BAD3-4970-9463-84B1CC893569}"
 EndProject
@@ -27,11 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Comp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{E20ED4AC-A55C-4F5C-9FAB-09AEC6173E19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{B2F929CA-187C-409F-A4F6-814FE883ACC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{B2F929CA-187C-409F-A4F6-814FE883ACC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{36978868-340E-413A-B79F-1C4554BAD7B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{36978868-340E-413A-B79F-1C4554BAD7B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{749718DB-760A-4E6D-BDC6-72ED08E3155F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{749718DB-760A-4E6D-BDC6-72ED08E3155F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavior Patterns", "Behavior Patterns", "{CA07F7B0-2F5C-4D57-9D94-2F20438A21B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{1352B7C0-D4EE-42DA-96D5-F4C28D50A37E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +95,10 @@ Global
 		{749718DB-760A-4E6D-BDC6-72ED08E3155F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{749718DB-760A-4E6D-BDC6-72ED08E3155F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{749718DB-760A-4E6D-BDC6-72ED08E3155F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1352B7C0-D4EE-42DA-96D5-F4C28D50A37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1352B7C0-D4EE-42DA-96D5-F4C28D50A37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1352B7C0-D4EE-42DA-96D5-F4C28D50A37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1352B7C0-D4EE-42DA-96D5-F4C28D50A37E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +117,7 @@ Global
 		{B2F929CA-187C-409F-A4F6-814FE883ACC0} = {6EB0F37B-4561-4E4E-9F0B-6F6EF5B19E4A}
 		{36978868-340E-413A-B79F-1C4554BAD7B0} = {6EB0F37B-4561-4E4E-9F0B-6F6EF5B19E4A}
 		{749718DB-760A-4E6D-BDC6-72ED08E3155F} = {6EB0F37B-4561-4E4E-9F0B-6F6EF5B19E4A}
+		{1352B7C0-D4EE-42DA-96D5-F4C28D50A37E} = {CA07F7B0-2F5C-4D57-9D94-2F20438A21B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C437E175-7ACA-41D5-B55F-C444E909F2E3}
