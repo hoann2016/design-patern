@@ -52,8 +52,7 @@
     public class IBM : Stock
     {
         // Constructor
-        public IBM(string symbol, double price)
-            : base(symbol, price)
+        public IBM(string symbol, double price) : base(symbol, price)
         {
         }
     }
@@ -78,8 +77,7 @@
         }
         public void Update(Stock stock)
         {
-            Console.WriteLine("Notified {0} of {1}'s " +
-                "change to {2:C}", name, stock.Symbol, stock.Price);
+            Console.WriteLine("Notified {0} of {1}'s " + "change to {2:C}", name, stock.Symbol, stock.Price);
         }
         // Gets or sets the stock
         public Stock Stock
